@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    padding:10px;
+    
+}
+
+.wrapper{
+    width:460px;
+    height:300px;
+    
+    position: relative;
+}
+.container{
+    width:200px;
+    height:300px;
+   
+   
+    padding: 10px;
+}
+
+
+/* ABOUT SECTION */
+
+
+.about{
+    margin-right:10px;
+    float: left;
+    position: relative;
+   
+    
+}
+
+.about img{
+    display: block;
+    margin:0 auto;
+    height:35px;
+    width: 35px;
+    margin-bottom:10px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size:25px;
+
+}
+
+.about .version{
+    font-size:10px;
+    color:#888;
+}
+
+h2:after{
+    display: block;
+    content:'';
+    width:60%;
+    height:1px;
+    margin:10px auto 20px auto;
+    background-color:#CCC;
+}
+
+
+.about #squash{
+    background-color:#e74c3c;
+}
+
+.about #unsquash{
+    background-color:#3498db;
+    
+}
+
+.about #unsquash:disabled{
+    background-color:#CCC;
+    cursor: auto;
+}
+
+.about .shortcuts{
+    font-family: 'Lato';
+    font-size:12px;
+    color:#AAA;
+    text-align: center;
+    margin-top:25px;
+
+}
+
+/* LINKS SECTION */
+
+
+.links{
+    width:250px;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+
+.links .underline{
+    margin:5px auto 20px auto;
+    width:40%;
+    background: #e74c3c;
+}
+
+.links textarea{
+    resize: none;
+    font-family: 'Lato', sans-serif;
+    font-size:15px;
+    padding:5px;
+    border:none;
+    
+    font-weight:300;
+    width:230px;
+    height:160px;
+    box-shadow:0px 0px 5px #CCC;
+    outline:none;
+}
+
+button{
+    padding:10px 20px;
+    
+    text-align: center;
+    background-color:none;
+    border:none;
+    box-shadow: none;
+    display: block;
+    margin:10px auto;
+    border-radius:2px;
+    color:white;
+    outline:none;
+    cursor: pointer;
+    
+}
+
+.links #save{
+    background-color:#e74c3c;
+}
+
+.links #reset{
+    background-color:#3498db;
+}
+
+.links #add{
+    background-color:#2ecc71;
+}
+
+.links button{
+    padding:5px 10px;
+    display: inline-block;
+}
+
+.links .dev{
+    color:#AAA;
+    font-size:12px;
+    
+    
+}
